@@ -1,0 +1,183 @@
+// Stylesheet by Blackhero (c) 2018 Aridia Network
+
+// Imports
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Nunito+Sans')
+
+// Variablen
+
+$text: #DDD
+$title: #FFF
+
+$textD: #222
+$titleD: #000
+
+$color1: #1a237e
+$color2: #b71c1c
+$color3: #4a148c
+
+$background1: #263238
+$background2: #37474F
+$background2D: #000a12
+
+// Allgemein
+html, body
+	background: -moz-radial-gradient(center, ellipse cover, $background2 0%, $background1 100%) /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, $background2 0%,$background1 100%) /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, $background2 0%,$background1 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: $text	
+	margin: 0
+	padding: 0
+	font-family: 'Nunito Sans', sans-serif	
+
+	
+h1, h2, h3, h4, h5
+	color: $title
+	font-family: 'Montserrat', sans-serif
+	font-weight: 600
+
+a:hover
+	text-decoration: none
+
+// Header
+.an-header
+	padding: 30px
+	text-align: center
+
+// Navbar
+.uk-navbar-container:not(.uk-navbar-transparent)
+	background: #2c3035
+	background-image: -moz-linear-gradient(top, rgb(59, 61, 70), rgb(44, 48, 53))
+	background-image: -webkit-linear-gradient(top, #3b3d46, #2c3035)
+	background-image: linear, to bottom, #3b3d46, #2c3035
+	background-repeat: repeat-x
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3B3D46', endColorstr='#FF2C3035', GradientType=0)
+	border-top: 1px solid rgba(255, 255, 255, 0.1)
+
+.uk-logo
+	color: $title
+	font-family: 'Montserrat', sans-serif
+	font-weight: 600
+
+.uk-navbar-nav > li > a
+	color: $text
+	
+	svg
+		margin-right: 5px
+
+.uk-navbar-nav > li:hover > a
+	color: $title
+
+// Section
+
+// Category
+.an-category
+	text-align: center
+	
+	h3
+		border-bottom: 1px solid rgba(255,255,255,.13)
+		padding-bottom: 5px
+
+.an-category + .an-category
+	margin-top: 50px
+	
+.uk-card
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12)
+	
+	.uk-card-header
+		height: 40px
+		padding: 10px
+
+	.uk-card-body
+		padding: 10px
+
+		h3
+			border-bottom: 0
+			margin: 0
+			padding: 0
+	
+	h4
+		color: #222
+
+	.uk-card-title
+		height: 40px
+		line-height: 40px
+	
+	.uk-label
+		border-radius: 0
+		height: 50px
+		line-height: 60px
+		padding: 5px
+		width: 50px
+
+	.uk-card-badge
+		top: 0px
+		right: 0px
+
+	.an-version
+		background: $text
+		float: left
+		margin-top: 17px
+		margin-left: -18px
+		height: 25px
+		line-height: 25px
+		width: 60px
+		text-align: center
+		transform: rotate(-90deg)
+
+	.an-version-dev
+		background: $textD
+		color: $text
+
+.an-color-grav
+	background: #222
+
+	.uk-card-title
+		color: $text
+
+.an-color-joomla
+	background: #fdd835
+
+	.uk-label,
+	.uk-card-title
+		color: $textD
+
+.an-color-code
+	background: #004d40
+
+	.uk-card-title
+		color: $text
+
+	svg + svg
+		margin-left: 5px
+
+.an-color-wordpress
+	background: #01579B
+
+	.uk-card-title
+		color: $text
+
+.an-color-twitch
+	background: #4b367c
+
+	.uk-card-title
+		color: $text
+
+// Sidebar
+
+.an-right
+	
+	.uk-card-default
+		background: #222
+		box-shadow: inset 0px 2px 4px rgba(0,0,0,.3)
+		color: $title
+
+// Footer
+.an-footer
+	background: $background1
+	bottom: 0
+	position: relative
+	text-align: center
+	height: 50px
+	line-height: 50px
+	width: 100%

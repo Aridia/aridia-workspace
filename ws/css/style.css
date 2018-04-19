@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Nunito+Sans");
+html, body {
+  background: -moz-radial-gradient(center, ellipse cover, #37474F 0%, #263238 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #37474F 0%, #263238 100%);
+  background: radial-gradient(ellipse at center, #37474F 0%, #263238 100%);
+  color: #DDD;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
+
+a:hover {
+  text-decoration: none; }
+
+.an-header {
+  padding: 30px;
+  text-align: center; }
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #2c3035;
+  background-image: -moz-linear-gradient(top, #3b3d46, #2c3035);
+  background-image: -webkit-linear-gradient(top, #3b3d46, #2c3035);
+  background-image: linear, to bottom, #3b3d46, #2c3035;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3B3D46', endColorstr='#FF2C3035', GradientType=0);
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+.uk-logo {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
+
+.uk-navbar-nav > li > a {
+  color: #DDD; }
+  .uk-navbar-nav > li > a svg {
+    margin-right: 5px; }
+
+.uk-navbar-nav > li:hover > a {
+  color: #FFF; }
+
+.an-category {
+  text-align: center; }
+  .an-category h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    padding-bottom: 5px; }
+
+.an-category + .an-category {
+  margin-top: 50px; }
+
+.uk-card {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12); }
+  .uk-card .uk-card-header {
+    height: 40px;
+    padding: 10px; }
+  .uk-card .uk-card-body {
+    padding: 10px; }
+    .uk-card .uk-card-body h3 {
+      border-bottom: 0;
+      margin: 0;
+      padding: 0; }
+  .uk-card h4 {
+    color: #222; }
+  .uk-card .uk-card-title {
+    height: 40px;
+    line-height: 40px; }
+  .uk-card .uk-label {
+    border-radius: 0;
+    height: 50px;
+    line-height: 60px;
+    padding: 5px;
+    width: 50px; }
+  .uk-card .uk-card-badge {
+    top: 0px;
+    right: 0px; }
+  .uk-card .an-version {
+    background: #DDD;
+    float: left;
+    margin-top: 17px;
+    margin-left: -18px;
+    height: 25px;
+    line-height: 25px;
+    width: 60px;
+    text-align: center;
+    transform: rotate(-90deg); }
+  .uk-card .an-version-dev {
+    background: #222;
+    color: #DDD; }
+
+.an-color-grav {
+  background: #222; }
+  .an-color-grav .uk-card-title {
+    color: #DDD; }
+
+.an-color-joomla {
+  background: #fdd835; }
+  .an-color-joomla .uk-label,
+  .an-color-joomla .uk-card-title {
+    color: #222; }
+
+.an-color-code {
+  background: #004d40; }
+  .an-color-code .uk-card-title {
+    color: #DDD; }
+  .an-color-code svg + svg {
+    margin-left: 5px; }
+
+.an-color-wordpress {
+  background: #01579B; }
+  .an-color-wordpress .uk-card-title {
+    color: #DDD; }
+
+.an-color-twitch {
+  background: #4b367c; }
+  .an-color-twitch .uk-card-title {
+    color: #DDD; }
+
+.an-right .uk-card-default {
+  background: #222;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #FFF; }
+
+.an-footer {
+  background: #263238;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
